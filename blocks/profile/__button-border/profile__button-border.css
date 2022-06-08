@@ -1,0 +1,16 @@
+.profile__button-border {
+  width: 150px;
+  min-height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  background-color: transparent;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 880px) {
+  .profile__button-border {
+    width: 282px;
+    margin-top: 32px;
+  }
+}
