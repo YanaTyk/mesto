@@ -1,0 +1,10 @@
+.popup__form_type_name {
+  margin-bottom: 30px;
+}
+
+.popup__form_type_name::placeholder {
+  vertical-align: top;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}

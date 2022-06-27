@@ -50,13 +50,7 @@
               />
               <div class="element__caption">
                 <h2 class="element__text">Оглахты</h2>
-                <button class="element__button">
-                  <img
-                    src="./images/Vectorlike.svg"
-                    alt="like"
-                    class="element__like-button"
-                  />
-                </button>
+                <button class="element__button"></button>
               </div>
             </div>
             <div class="element">
@@ -67,13 +61,7 @@
               />
               <div class="element__caption">
                 <h2 class="element__text">Домбай</h2>
-                <button class="element__button">
-                  <img
-                    src="./images/Vectorlike.svg"
-                    alt="like"
-                    class="element__like-button"
-                  />
-                </button>
+                <button class="element__button"></button>
               </div>
             </div>
             <div class="element">
@@ -84,13 +72,7 @@
               />
               <div class="element__caption">
                 <h2 class="element__text">Красноярск</h2>
-                <button class="element__button">
-                  <img
-                    src="./images/Vectorlike.svg"
-                    alt="like"
-                    class="element__like-button"
-                  />
-                </button>
+                <button class="element__button"></button>
               </div>
             </div>
             <div class="element">
@@ -101,13 +83,7 @@
               />
               <div class="element__caption">
                 <h2 class="element__text">Гора Эльбрус</h2>
-                <button class="element__button">
-                  <img
-                    src="./images/Vectorlike.svg"
-                    alt="like"
-                    class="element__like-button"
-                  />
-                </button>
+                <button class="element__button"></button>
               </div>
             </div>
             <div class="element">
@@ -118,13 +94,7 @@
               />
               <div class="element__caption">
                 <h2 class="element__text">Река Лена</h2>
-                <button class="element__button">
-                  <img
-                    src="./images/Vectorlike.svg"
-                    alt="like"
-                    class="element__like-button"
-                  />
-                </button>
+                <button class="element__button"></button>
               </div>
             </div>
             <div class="element">
@@ -135,19 +105,39 @@
               />
               <div class="element__caption">
                 <h2 class="element__text">Карачаево-Черкессия</h2>
-                <button class="element__button">
-                  <img
-                    src="./images/Vectorlike.svg"
-                    alt="like"
-                    class="element__like-button"
-                  />
-                </button>
+                <button class="element__button"></button>
               </div>
             </div>
           </section>
         </main>
-        <footer class="footer">© 2022 Mesto Russia</footer>
+      </div>
+      <footer class="footer">© 2022 Mesto Russia</footer>
+    </div>
+    <div class="popup popup_hidden">
+      <div class="popup__container">
+        <button type="button" class="popup__close-button">
+          <img
+            src="./images/CloseIcon.svg"
+            alt="кнопка удалить"
+            class="popup__close-icon"
+          />
+        </button>
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form class="popup__form">
+          <input
+            class="popup__form popup__form_type_name"
+            type="text"
+            placeholder="Жак-Ив Кусто"
+          />
+          <input
+            class="popup__form popup__form_type_profession"
+            type="text"
+            placeholder="Исследователь океана"
+          />
+          <button type="submit" class="popup__save-button">Сохранить</button>
+        </form>
       </div>
     </div>
+    <script src="./pages/index.js"></script>
   </body>
 </html>

@@ -14,3 +14,8 @@
     margin-top: 32px;
   }
 }
+
+.profile__button-border:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

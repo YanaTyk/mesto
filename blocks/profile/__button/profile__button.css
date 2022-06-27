@@ -16,3 +16,8 @@
     box-sizing: border-box;
   }
 }
+
+.profile__button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
