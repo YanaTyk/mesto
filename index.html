@@ -6,12 +6,10 @@
     <title>Mesto</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body>
-    <div class="page">
-      <div class="page__container">
+  <body class="page">
+    <div class="page__container">
         <header class="header">
           <img src="./images/Vector.svg" alt="логотип" class="header__logo" />
-          <div class="header__line"></div>
         </header>
         <main class="content">
           <section class="profile">
@@ -23,121 +21,106 @@
             <div class="profile__card">
               <div class="profile__info">
                 <h1 class="profile__name">Жак-Ив Кусто</h1>
-                <button class="profile__button">
-                  <img
-                    src="./images/editButton.svg"
-                    alt="кнопка редактировать"
-                    class="profile__edit-button"
-                  />
+                <button type="button" class="profile__button">
                 </button>
                 <p class="profile__profession">Исследователь океана</p>
               </div>
-              <button class="profile__button-border">
-                <img
-                  src="./images/plus.png"
-                  alt="кнопка добавить"
-                  class="profile__add-button"
-                />
+              <button type="button" class="profile__add-button">
               </button>
             </div>
           </section>
           <section class="elements">
-            <div class="element">
+            <article class="element">
               <img
                 src="./images/oglahty.jpg"
-                alt="фото"
+                alt="фото местности Оглахты"
                 class="element__image"
               />
               <div class="element__caption">
                 <h2 class="element__text">Оглахты</h2>
-                <button class="element__button"></button>
+                <button type="button" class="element__button"></button>
               </div>
-            </div>
-            <div class="element">
+            </article>
+            <article class="element">
               <img
                 src="./images/kirill-pershin-1556355-unsplash.jpg"
-                alt="фото"
+                alt="фото гор на Домбае"
                 class="element__image"
               />
               <div class="element__caption">
                 <h2 class="element__text">Домбай</h2>
-                <button class="element__button"></button>
+                <button type="button" class="element__button"></button>
               </div>
-            </div>
-            <div class="element">
+            </article>
+            <article class="element">
               <img
                 src="./images/Krasnoyarsk.jpg"
-                alt="фото"
+                alt="фото лесов Красноярска"
                 class="element__image"
               />
               <div class="element__caption">
                 <h2 class="element__text">Красноярск</h2>
-                <button class="element__button"></button>
+                <button type="button" class="element__button"></button>
               </div>
-            </div>
-            <div class="element">
+            </article>
+            <article class="element">
               <img
                 src="./images/kirill-pershin-1404681-unsplash.jpg"
-                alt="фото"
+                alt="фото горы Эльбрус"
                 class="element__image"
               />
               <div class="element__caption">
                 <h2 class="element__text">Гора Эльбрус</h2>
-                <button class="element__button"></button>
+                <button type="button" class="element__button"></button>
               </div>
-            </div>
-            <div class="element">
+            </article>
+            <article class="element">
               <img
                 src="./images/Lena-river.jpg"
-                alt="фото"
+                alt="фото реки Лена"
                 class="element__image"
               />
               <div class="element__caption">
                 <h2 class="element__text">Река Лена</h2>
-                <button class="element__button"></button>
+                <button type="button" class="element__button"></button>
               </div>
-            </div>
-            <div class="element">
+            </article>
+            <article class="element">
               <img
                 src="./images/kirill-pershin-1088404-unsplash.jpg"
-                alt="фото"
+                alt="фото Карачаево-Черкессии"
                 class="element__image"
               />
               <div class="element__caption">
                 <h2 class="element__text">Карачаево-Черкессия</h2>
-                <button class="element__button"></button>
+                <button type="button" class="element__button"></button>
               </div>
-            </div>
+            </article>
           </section>
         </main>
       </div>
-      <footer class="footer">© 2022 Mesto Russia</footer>
+      <footer class="footer"><p class="footer__author">© 2022 Mesto Russia</p></footer>
     </div>
-    <div class="popup popup_hidden">
+    <div class="popup">
       <div class="popup__container">
-        <button type="button" class="popup__close-button">
-          <img
-            src="./images/CloseIcon.svg"
-            alt="кнопка удалить"
-            class="popup__close-icon"
-          />
-        </button>
+        <button type="button" class="popup__close-button"></button>
         <h2 class="popup__title">Редактировать профиль</h2>
-        <form class="popup__form">
+        <form name="form" class="popup__form">
           <input
-            class="popup__form popup__form_type_name"
+            class="popup__filled popup__filled_type_name"
             type="text"
+            name="name"
             placeholder="Жак-Ив Кусто"
           />
           <input
-            class="popup__form popup__form_type_profession"
+            class="popup__filled popup__filled_type_profession"
             type="text"
+            name="job"
             placeholder="Исследователь океана"
           />
           <button type="submit" class="popup__save-button">Сохранить</button>
         </form>
-      </div>
     </div>
-    <script src="./pages/index.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

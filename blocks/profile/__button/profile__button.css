@@ -6,6 +6,21 @@
   width: 24px;
   min-height: 24px;
   align-self: end;
+  outline: none;
+  transition: opacity 0.3s linear;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile__button::before {
+  background-image: url(../../../images/Pencil.svg);
+  position: absolute;
+  z-index: 1;
+  content: "";
+  width: 10px;
+  min-height: 10px;
+  top: 7px;
+  left: 7px;
 }
 
 @media screen and (max-width: 425px) {
@@ -13,11 +28,16 @@
     margin: 0 0 6px;
     width: 18px;
     min-height: 18px;
-    box-sizing: border-box;
+  }
+  .profile__button::before {
+    width: 7.5px;
+    min-height: 7.5px;
+    top: 5.25px;
+    left: 5.25px;
+    background-size: cover;
   }
 }
 
 .profile__button:hover {
   opacity: 0.6;
-  cursor: pointer;
 }

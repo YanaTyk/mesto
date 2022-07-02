@@ -8,3 +8,10 @@
   font-size: 14px;
   line-height: 17px;
 }
+
+@media screen and (max-width: 425px) {
+  .popup__filled_type_name {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

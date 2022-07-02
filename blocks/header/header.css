@@ -2,16 +2,15 @@
   margin: 0 auto 40px;
   padding-top: 45px;
   max-width: 880px;
-  min-height: 74px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: inset 0 -1px 0 0 rgba(84, 84, 84, 0.7);
 }
 
 @media screen and (max-width: 425px) {
   .header {
     margin: 0 0 42px;
     padding-top: 28px;
-    min-height: 56px;
   }
 }
