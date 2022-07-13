@@ -10,24 +10,17 @@
   cursor: pointer;
   width: 32px;
   min-height: 32px;
-}
-
-.popup__close-button::before {
   background-image: url(../../../images/CloseIcon.svg);
-  position: absolute;
-  z-index: 1;
-  content: "";
-  width: 32px;
-  min-height: 32px;
-  top: 0;
-  left: 0;
+  background-repeat: no-repeat;
+  align-self: center;
+  flex: none;
+  background-size: cover;
 }
 
 @media screen and (max-width: 425px) {
   .popup__close-button::before {
     width: 20px;
     min-height: 20px;
-    background-size: cover;
   }
   .popup__close-button {
     width: 20px;

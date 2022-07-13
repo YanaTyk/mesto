@@ -14,16 +14,16 @@
 
 }
 
-.popup__filled::placeholder {
+::-webkit-input-placeholder {
   vertical-align: top;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+}
+::-moz-placeholder          {
+  vertical-align: top;
+}
+:-moz-placeholder           {
+  vertical-align: top;
+}
+:-ms-input-placeholder      {
+  vertical-align: top;
 }
 
-@media screen and (max-width: 425px) {
-  .popup__filled {
-    font-size: 14px;
-    line-height: 17px;
-  }
-}

@@ -3,24 +3,14 @@
   min-height: 50px;
   border: 2px solid #ffffff;
   border-radius: 2px;
-  background-color: transparent;
   outline: none;
   padding: 0;
   box-sizing: border-box;
   cursor: pointer;
   transition: opacity 0.3s linear;
   position: relative;
-}
-
-.profile__add-button::before {
-  background-image: url(../../../images/plus.svg);
-  position: absolute;
-  z-index: 1;
-  content: "";
-  width: 22px;
-  min-height: 22px;
-  top: 14px;
-  left: 64px;
+  background: url(../../../images/Vectorplus.svg) no-repeat center;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 935px) {
@@ -28,12 +18,7 @@
     width: 282px;
     margin-top: 32px;
     box-sizing: border-box;
-  }
-  .profile__add-button::before {
-    width: 16px;
-    min-height: 16px;
-    background-size: cover;
-    left: 134px;
+    background-size: 16px;
   }
 }
 

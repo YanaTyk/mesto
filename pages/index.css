@@ -10,8 +10,6 @@
 @import url(../blocks/popup/__save-button/popup__save-button.css);
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__filled/popup__filled.css);
-@import url(../blocks/popup/__filled/_type/popup__filled_type_name.css);
-@import url(../blocks/popup/__filled/_type/popup__filled_type_profession.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/profile/profile.css);

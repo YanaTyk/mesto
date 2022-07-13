@@ -12,6 +12,6 @@
   .header {
     margin: 0 0 42px;
     padding-top: 28px;
-    max-height: 56px;
+    min-height: 56px;
   }
 }

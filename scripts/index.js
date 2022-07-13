@@ -15,7 +15,7 @@ function formSubmitHandler (evt) {
   evt.preventDefault();
     profileName.textContent = nameInput.value;
     profileProfession.textContent = jobInput.value;
-    popup.classList.add(togglePopup());
+    togglePopup();
 }
 
 function inputText() {
